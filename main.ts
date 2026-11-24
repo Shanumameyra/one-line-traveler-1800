@@ -1,5 +1,6 @@
 // One Sentence for a Traveler from 1800 — make.fun entry.
-// Writes this entry's single sentence to /output/entry.txt (1-200 chars).
+// Writes this entry's single sentence to /output/entry.txt.
+// Gate: UTF-8 text, 1-200 characters, not only whitespace. This line is 163.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
